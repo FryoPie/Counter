@@ -287,7 +287,7 @@ export default function AlphabetTally() {
                   {/* Letter Display */}
                   <div className="relative text-center mb-4 lg:mb-6 flex-shrink-0">
                     <motion.div 
-                      className="text-5xl lg:text-6xl xl:text-8xl font-black bg-gradient-to-br from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-2 filter drop-shadow-lg"
+                      className="text-5xl lg:text-6xl xl:text-8xl font-black text-white mb-2 filter drop-shadow-lg"
                       whileHover={{ scale: 1.05, rotateZ: 2 }}
                       transition={{ type: "spring", stiffness: 300 }}
                     >
@@ -305,7 +305,7 @@ export default function AlphabetTally() {
                       transition={{ duration: 0.3 }}
                       className="relative"
                     >
-                      <div className="text-4xl lg:text-5xl xl:text-6xl font-black bg-gradient-to-br from-yellow-300 via-orange-300 to-red-300 bg-clip-text text-transparent filter drop-shadow-lg mb-2">
+                      <div className="text-4xl lg:text-5xl xl:text-6xl font-black text-yellow-300 filter drop-shadow-lg mb-2">
                         {count}
                       </div>
                       <div className="text-slate-300 text-xs lg:text-sm font-medium uppercase tracking-wider">
