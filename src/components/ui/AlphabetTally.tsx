@@ -309,7 +309,7 @@ export default function AlphabetTally() {
                         {count}
                       </div>
                       <div className="text-slate-300 text-xs lg:text-sm font-medium uppercase tracking-wider">
-                        {count === 1 ? 'occurrence' : 'occurrences'}
+                        {count === 1 ? &quot;occurrence&quot; : &quot;occurrences&quot;}
                       </div>
                     </motion.div>
                   </div>
