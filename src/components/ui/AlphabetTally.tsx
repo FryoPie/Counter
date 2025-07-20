@@ -229,7 +229,7 @@ export default function AlphabetTally() {
             </div>
             <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4">Ready to Start Tallying?</h3>
             <p className="text-lg lg:text-xl text-slate-300 mb-6 lg:mb-8 max-w-md mx-auto">
-              Click "Add Alphabet" to select your first letter and begin tracking sign language alphabets
+              Click &quot;Add Alphabet&quot; to select your first letter and begin tracking sign language alphabets
             </p>
             <div className="flex justify-center">
               <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-sm rounded-2xl px-6 lg:px-8 py-3 lg:py-4 border border-blue-400/20">
@@ -383,7 +383,7 @@ export default function AlphabetTally() {
           >
             <div className="bg-white/5 backdrop-blur-lg rounded-2xl px-6 lg:px-8 py-4 lg:py-6 border border-white/10 inline-block">
               <p className="text-slate-300 text-base lg:text-lg">
-                <span className="font-semibold text-white">{alphabets.length}</span> alphabet{alphabets.length !== 1 ? 's' : ''} active • 
+                <span className="font-semibold text-white">{alphabets.length}</span> alphabet{alphabets.length !== 1 ? &quot;s&quot; : &quot;&quot;} active • 
                 <span className="font-semibold text-white"> {ALPHABETS.length - alphabets.length}</span> remaining • 
                 <span className="font-semibold text-white"> {totalCount}</span> total occurrences
               </p>
